@@ -1,0 +1,19 @@
+/*Mi primer hoja de estilos en CSS*/
+
+/*Selector universal*/
+* {color: black;}
+
+/*Selector de tipo*/
+h1 {color: black;}
+
+/*Selector por clase*/
+.Primera-clase {color: red;}
+
+/*Selector por atributo*/
+[atributo = "Prueba"] {color: blue;}
+
+/*Selector descendiente*/
+h2 p {color: blue;}
+
+/*Selector por pseudo-clases*/
+h1 b:hover {color: red;}
